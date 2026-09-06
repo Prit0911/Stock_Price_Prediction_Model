@@ -28,32 +28,6 @@ A Streamlit web app that predicts stock closing prices using an LSTM neural netw
 4. Feeds 100-day rolling windows into the LSTM model to predict the next day's price
 5. Rescales predictions back to actual price values and plots them against real prices
 
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
-   ```
-
-2. Create and activate a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
-
-5. Open the local URL Streamlit prints in your terminal (usually `http://localhost:8501`).
-
 ## Usage
 
 - Enter any valid stock ticker symbol (e.g., `GOOG`, `AAPL`, `TSLA`) in the input box.
