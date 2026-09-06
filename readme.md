@@ -52,3 +52,7 @@ This project is for educational purposes only. Stock price predictions from this
 ## License
 
 Add a license of your choice here (e.g., MIT).
+
+
+## Author: Prit Gajjar
+pritgajjar0911@gmail.com
